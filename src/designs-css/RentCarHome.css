@@ -1,0 +1,164 @@
+.car-rental-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-rectangle {
+    height: 140px;
+    width: 100%;
+    background-color: #28a745;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 60px;
+    font-size: 50px;
+    color: #020202;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-select,
+.form-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 160px;
+}
+
+.search-button {
+    padding: 12px 20px;
+    background-color: #285ba7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #218838;
+}
+
+.results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-list {
+    list-style-type: none;
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.car-item {
+    position: relative;
+    width: calc(23.33% - 18px);
+    margin-bottom: 20px;
+    margin-right: 5px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    & p{
+        line-height:30px; 
+    }
+}
+
+.car-item:hover {
+    transform: translateY(-5px);
+}
+
+.car-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black);
+    mask-image: linear-gradient(to bottom, transparent, black 10%, black);
+}
+
+.rent-button {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 10px;
+    background-color: #285ba7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.rent-button:hover {
+    background-color: #218838;
+}
+
+.results h2 {
+    color: #000;
+    font-size: 20px;
+}
+
+.results>div {
+    color: #000;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.header-rectangle::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/6456/6456856.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

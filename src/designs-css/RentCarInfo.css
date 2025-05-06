@@ -1,0 +1,112 @@
+.confirmation-container {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f8f9fa;
+  color: #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirmation-container .info-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 50px;
+}
+
+.confirmation-container .info-container > div {
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.confirmation-header {
+  height: 140px;
+  width: 100%;
+  background-color: #28a745;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-container h1 {
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: #020202;
+}
+
+.confirmation-container h2 {
+  color: #000;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.confirmation-container .info-container p {
+  color: #000;
+  font-weight: bold;
+}
+
+.confirmation-container button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.confirmation-container button:hover {
+  background-color: #0056b3;
+}
+
+.car-image-container img {
+  width: 200px;
+  height: auto;
+  -webkit-mask-image: linear-gradient(to top, transparent, black 10%, black);
+  mask-image: linear-gradient(to top, transparent, black 10%, black);
+}
+
+.confirmation-header::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/6456/6456856.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+.header-image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 28px;
+}
+
+@keyframes moveBox {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+.confirmation-container .info-container > div:hover {
+  animation: moveBox 0.3s;
+}
