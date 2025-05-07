@@ -47,7 +47,7 @@ npm run dev
 4. **Formulario de renta**: Captura de datos del cliente y opciones adicionales
 5. **Confirmación**: Resumen de la reserva y detalles del pago
 
-## Equipo de Desarrollo
+## Equipo de desarrollo
 
 <table>
   <tr>
