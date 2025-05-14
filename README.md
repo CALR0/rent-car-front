@@ -6,7 +6,7 @@
 
 ## Descripción
 
-Rentcar es una plataforma moderna para la renta de vehículos desarrollada con tecnologías frontend de última generación. Proporciona una interfaz intuitiva y responsive que permite a los usuarios buscar, comparar y alquilar vehículos de forma rápida y sencilla.
+Rentcar es una plataforma moderna para la renta de vehículos desarrollada con tecnologías frontend. Proporciona una interfaz intuitiva y responsive que permite a los usuarios buscar, comparar y alquilar vehículos de forma rápida y sencilla.
 
 
 ## Tecnologías
