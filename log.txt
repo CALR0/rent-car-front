@@ -1,0 +1,19 @@
+File /home/unimagdalena/Documentos/PW_Front/frontendapp/index.html
+
+
+Warnings :
+1 : the definition is not identified
+2 : the definition is not identified
+3 : the definition is not identified
+4 : the definition is not identified
+5 : the definition is not identified
+6 : the definition is not identified
+7 : the definition is not identified
+8 : the definition is not identified
+9 : the definition is not identified
+10 : the definition is not identified
+11 : the definition is not identified
+12 : the definition is not identified
+13 : the definition is not identified
+
+Your trace has 0 errors and 13 warnings.
