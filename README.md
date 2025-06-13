@@ -8,6 +8,19 @@
 
 Rentcar es una plataforma moderna para la renta de vehículos desarrollada con tecnologías frontend. Proporciona una interfaz intuitiva y responsive que permite a los usuarios buscar, comparar y alquilar vehículos de forma rápida y sencilla.
 
+## Demostración
+
+A continuación se muestran imagenes de la plataforma Rentcar:
+
+<p align="center">
+  <img src="/demo1.png" alt="Demo 1" width="600"/>
+</p>
+<p align="center">
+  <img src="/demo2.png" alt="Demo 2" width="600"/>
+</p>
+<p align="center">
+  <img src="/demo3.png" alt="Demo 3" width="600"/>
+</p>
 
 ## Tecnologías
 
@@ -16,7 +29,6 @@ Rentcar es una plataforma moderna para la renta de vehículos desarrollada con t
 - **React Router 6**: Sistema de enrutamiento para React
 - **React DatePicker**: Componente avanzado para selección de fechas
 - **CSS Modules**: Estilos modulares y encapsulados
-
 
 ## Instalación
 
