@@ -13,13 +13,13 @@ Rentcar es una plataforma moderna para la renta de vehículos desarrollada con t
 A continuación se muestran imagenes de la plataforma Rentcar:
 
 <p align="center">
-  <img src="/demo1.png" alt="Demo 1" width="600"/>
+  <img src="public/demo1.png" alt="Demo 1" width="600"/>
 </p>
 <p align="center">
-  <img src="/demo2.png" alt="Demo 2" width="600"/>
+  <img src="public/demo2.png" alt="Demo 2" width="600"/>
 </p>
 <p align="center">
-  <img src="/demo3.png" alt="Demo 3" width="600"/>
+  <img src="public/demo3.png" alt="Demo 3" width="600"/>
 </p>
 
 ## Tecnologías
