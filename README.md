@@ -10,7 +10,7 @@ Rentcar es una plataforma moderna para la renta de vehículos desarrollada con t
 
 ## Demostración
 
-A continuación se muestran imagenes de la plataforma Rentcar:
+A continuación se muestran imagenes de la plataforma Rentcar en funcionamiento:
 
 <p align="center">
   <img src="public/demo1.png" alt="Demo 1" width="600"/>
@@ -22,7 +22,7 @@ A continuación se muestran imagenes de la plataforma Rentcar:
   <img src="public/demo3.png" alt="Demo 3" width="600"/>
 </p>
 
-## Tecnologías
+## Tecnologías implementadas
 
 - **React 18**: Biblioteca para construir interfaces de usuario
 - **Vite**: Herramienta de compilación y desarrollo ultrarrápida
@@ -30,7 +30,7 @@ A continuación se muestran imagenes de la plataforma Rentcar:
 - **React DatePicker**: Componente avanzado para selección de fechas
 - **CSS Modules**: Estilos modulares y encapsulados
 
-## Instalación
+## Instalación paso a paso
 
 1. **Clonar el repositorio**
 
@@ -59,7 +59,7 @@ npm run dev
 4. **Formulario de renta**: Captura de datos del cliente y opciones adicionales
 5. **Confirmación**: Resumen de la reserva y detalles del pago
 
-## Equipo de desarrollo
+## Equipo de desarrollo RentCar
 
 <table>
   <tr>
