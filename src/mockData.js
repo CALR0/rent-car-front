@@ -132,7 +132,7 @@ export const mockCars = [
     color: "Azul",
     ciudad: "Bogotá",
     precio: 340000,
-    imagen: "https://images.pexels.com/photos/7674867/pexels-photo-7674867.jpeg"
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTolcPrlUG3IyaCTAJc9F7e-Z03XmrJBCMPgQ&s"
   },
   {
     idCarro: 17,
