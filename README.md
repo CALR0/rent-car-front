@@ -40,6 +40,12 @@ A continuación, se presentan imágenes en funcionamiento de la plataforma:
 
 ---
 
+## Chequealo en linea
+
+Visita el sitio: https://rentcaronlineapp.netlify.app/
+
+---
+
 ## Tecnologías implementadas
 
 - ⚛️ **React 18** – Biblioteca para construir interfaces interactivas.
